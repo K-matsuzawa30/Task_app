@@ -3,6 +3,7 @@
 
 /* 共通 */
 
+
 body {
   padding-top: 60px;
 }
@@ -52,20 +53,47 @@ p {
 
 /* ヘッダー */
 
+// .nav navbar-nav navbar-right {
+// color: #fff; 
+// }
+
+.navbar {
+  background-color: #FF66CC;
+}
+
 #logo {
   float: left;
   margin-right: 10px;
   font-size: 1.7em;
+  font-style: italic;
   color: #fff;
-  text-transform: uppercase;
+  text-transform: none;
   letter-spacing: -1px;
   padding-top: 9px;
   font-weight: bold;
 }
 
 #logo:hover {
-  color: #fff;
+  color: #C0C0C0;
   text-decoration: none;
+}
+
+#list {
+  color: #FFF;
+  font-weight: bold;
+}
+
+#list:hover {
+  color: #C0C0C0;
+}
+
+a {
+  color: #FFF !important;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #C0C0C0 !important;
 }
 
 /* デバッグウインドウ */
