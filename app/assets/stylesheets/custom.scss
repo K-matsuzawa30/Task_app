@@ -53,12 +53,8 @@ p {
 
 /* ヘッダー */
 
-// .nav navbar-nav navbar-right {
-// color: #fff; 
-// }
-
-.navbar {
-  background-color: #FF66CC;
+#header {
+  background-color: #FF66CC !important;
 }
 
 #logo {
@@ -78,24 +74,30 @@ p {
   text-decoration: none;
 }
 
-#list {
-  color: #FFF;
-  font-weight: bold;
-}
-
-#list:hover {
-  color: #C0C0C0;
-}
-
-a {
+.header-list a{
   color: #FFF !important;
   font-weight: bold;
 }
 
-a:hover {
+.header-list:hover a{
   color: #C0C0C0 !important;
 }
 
+#dropdown-title {
+  background-color: #FF66CC !important;
+  color: #fff !important;
+  font-weight: bold;
+}
+
+#dropdown-title:hover {
+  color: #C0C0C0 !important;
+}
+
+.dropdown-header {
+  color: #808080;
+  font-weight: bold;
+  background-color: #EEE;
+}
 /* body */
 #top-main {
   background-color: #fff;
